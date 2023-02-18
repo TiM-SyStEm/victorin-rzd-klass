@@ -1,0 +1,8 @@
+var data = {
+  "1": {
+    "right": "inp4",
+    "v1": "https://www.youtube.com/embed/qg_BclOf-Ts",
+    "v2": "https://www.youtube.com/embed/NnDU22ysFEQ",
+    "v3": "https://www.youtube.com/embed/WPOi87MPlb4"
+  }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+		<title>Викторина РЖД-Класс</title>
+	</head>
+	<body onload="main();">
+       <header>
+          <h1 id="nameVid">Видео 0</h1>
+          <iframe width="620" height="400" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="vplayer"></iframe>
+          
+          <!--<video src="#" controls width="600" id="vplayer">
+            <p>Ваш браузер не поддерживает HTML5 видео. Используйте <a href="#">ссылку на видео</a> для доступа.</p>
+          </video>-->
+       </header>
+       <br/>
+	   <div style="width: 200px" id="left">
+          <table>
+            <tr>
+              <td>Сложно</td>
+              <td>Средне</td>
+              <td>Легко</td>
+            </tr>
+            <tr>
+              <td id="level1"></td>
+              <td id="level2"></td>
+              <td id="level3"></td>
+            </tr>
+          </table>
+          <button onclick="easier();">Уровень проще</button>
+          <br/>
+          <p id="balls">30</p>
+        </div>
+        <div id="content">
+          <form id="form1">
+            <h2>Какая профессия представлена?</h2>
+            <input type="radio" name="ask" value="inp1">
+            <label>Электромонтёр контактной сети</label><br/>
+            <input type="radio" name="ask" value="inp2">
+            <label>Работник детской железной дороги</label><br/>
+            <input type="radio" name="ask" value="inp3">
+            <label>Сигналист</label><br/>
+            <input type="radio" name="ask" value="inp4">
+            <label>Осмоторщик вагонов</label><br/>
+            <input type="radio" name="ask" value="inp5">
+            <label>Монтёр пути</label><br/>
+            <input type="radio" name="ask" value="inp6">
+            <label>Проводник пассажирского вагона</label><br/>
+            <input type="radio" name="ask" value="inp7">
+            <label>Машинист электровоза</label><br/>
+            <input type="radio" name="ask" value="inp8">
+            <label>Конструктор локомотива</label><br/>
+            <input type="radio" name="ask" value="inp9">
+            <label>Слесарь по ремонту тягового состава</label><br/>
+		  </form>
+          <button onclick="submit();">Ответить</button>
+        </div>
+        <script type="text/javascript" src="data/data.json"></script>
+        <script type="text/javascript" src="main.js"></script>
+	</body>
+</html>

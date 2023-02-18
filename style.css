@@ -1,0 +1,31 @@
+html{
+  font-family: monospace;
+}
+#left{
+  float: left;
+  padding-right: 100px;
+}
+#content{
+  overflow: hidden;
+}
+td{
+  padding: 10px;
+  border-right: 1px solid gray;
+}
+#level1{
+  background-color: red;
+}
+#level2{
+  background-color: white;
+}
+#level3{
+  background-color: white;
+}
+#balls{
+  font-size: 40px;
+  text-align: center;
+  color: red;
+}
+form label{
+  font-size: 16px;
+}
